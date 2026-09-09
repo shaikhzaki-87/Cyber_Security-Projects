@@ -1,0 +1,112 @@
+# Cyber Security Projects
+
+A collection of beginner-friendly cybersecurity and Python projects built during my BCA (2024–2025). Each project focuses on a core security concept — from classical cryptography to encoding analysis and system-level monitoring.
+
+---
+
+## Projects
+
+---
+
+### 1. Text Encryption / Decryption Tool
+**File:** `Enrypt_2024.py`
+
+A substitution cipher tool that encrypts and decrypts text using a randomly generated character mapping. Unlike Caesar cipher (which uses a fixed shift), this tool shuffles the entire character set — including letters, digits, punctuation, and spaces — to create a unique key every run.
+
+**How it works:**
+- Builds a character set of all printable characters
+- Randomly shuffles it to generate a one-time substitution key
+- Encrypts by mapping each character to its shuffled counterpart
+- Decrypts by reversing the lookup
+
+**Concepts covered:** Classical cryptography, substitution ciphers, character mapping, limitations of simple encryption (vulnerable to frequency analysis)
+
+**Run:**
+```bash
+python Enrypt_2024.py
+```
+
+---
+
+### 2. Password Strength Checker
+**File:** `Password_Checker_2024.py`
+
+A GUI-based password strength evaluator built with Tkinter. Analyzes a password against common security criteria and gives real-time color-coded feedback.
+
+**How it works:**
+- Checks 5 criteria using regex: length (8+), uppercase, lowercase, digits, special characters
+- Assigns a score based on how many criteria are met
+- Displays result as Weak / Moderate / Strong with color feedback (red / orange / green)
+
+**Concepts covered:** GUI development with Tkinter, regex-based pattern matching, basic password policy design (aligned with NIST guidelines), user-facing security feedback
+
+**Run:**
+```bash
+python Password_Checker_2024.py
+```
+
+---
+
+### 3. Encoder / Decoder Tool
+**File:** `encoder_decoder_2024.py`
+
+A command-line tool that encodes and decodes text in three common formats: Base64, Hexadecimal, and URL encoding. Also includes a basic format auto-detection feature using regex pattern matching.
+
+> **Note:** Encoding is NOT encryption. It's a different representation of the same data — anyone can decode it. This tool demonstrates why encoded strings in URLs, tokens, and cookies should always be inspected during security analysis.
+
+**How it works:**
+- Encode: converts plain text to Base64 / Hex / URL format simultaneously
+- Decode: takes encoded input and reverses it back to plain text
+- Detect: uses regex heuristics to guess which encoding format a string is in
+
+**Concepts covered:** Data encoding standards (Base64, Hex, URL encoding), regex pattern matching, format detection, encoding vs encryption distinction, practical use in security testing (JWT tokens, cookies, web requests)
+
+**Run:**
+```bash
+python encoder_decoder_2024.py
+```
+
+---
+
+### 4. Keylogger (Educational / Research Purpose Only)
+**File:** `keylogger_2025.py`
+
+> **Disclaimer:** This project is strictly for educational purposes to understand how keyloggers work at a system level. Unauthorized use of keyloggers is illegal. Only run this on systems you own or have explicit permission to monitor.
+
+A Python-based keylogger demonstrating keyboard event capture, structured logging, and system-level programming concepts. Built to understand how security tools monitor input at the OS level — knowledge essential for both offensive security research and defensive detection.
+
+**How it works:**
+- Uses `pynput` library to listen for keyboard events
+- Tracks active window titles across Windows, macOS, and Linux
+- Logs keystrokes with timestamps and window context to a local file
+- Supports log rotation (new file when size exceeds limit)
+- Optional webhook delivery for batched remote log transmission
+- Toggle logging on/off with F9 key, exit with Ctrl+C
+
+**Concepts covered:** Keyboard event capture, multi-threading with locks, cross-platform system interaction, structured logging with file rotation, dataclass-based configuration, ethical boundaries in security tooling
+
+**Install dependencies:**
+```bash
+pip install pynput requests
+```
+
+**Run:**
+```bash
+python keylogger_2025.py
+```
+
+---
+
+## Tech Stack
+
+- Python 3.x
+- Libraries: `tkinter`, `pynput`, `requests`, `re`, `base64`, `urllib`
+
+---
+
+## Author
+
+**Shaikh Zaki**
+BCA — Savitribai Phule Pune University (2026)
+Email: shaikhzakiii34@gmail.com
+LinkedIn: https://linkedin.com/in/shaikh-zaki-55b493260
