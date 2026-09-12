@@ -2,11 +2,7 @@
 
 A collection of beginner-friendly cybersecurity and Python projects built during my BCA (2024–2025). Each project focuses on a core security concept — from classical cryptography to encoding analysis and system-level monitoring.
 
----
-
 ## Projects
-
----
 
 ### 1. Text Encryption / Decryption Tool
 **File:** `Enrypt_2024.py`
@@ -22,11 +18,8 @@ A substitution cipher tool that encrypts and decrypts text using a randomly gene
 **Concepts covered:** Classical cryptography, substitution ciphers, character mapping, limitations of simple encryption (vulnerable to frequency analysis)
 
 **Run:**
-```bash
-python Enrypt_2024.py
-```
 
----
+python Enrypt_2024.py
 
 ### 2. Password Strength Checker
 **File:** `Password_Checker_2024.py`
@@ -41,11 +34,9 @@ A GUI-based password strength evaluator built with Tkinter. Analyzes a password 
 **Concepts covered:** GUI development with Tkinter, regex-based pattern matching, basic password policy design (aligned with NIST guidelines), user-facing security feedback
 
 **Run:**
-```bash
-python Password_Checker_2024.py
-```
 
----
+python Password_Checker_2024.py
+
 
 ### 3. Encoder / Decoder Tool
 **File:** `encoder_decoder_2024.py`
@@ -62,11 +53,8 @@ A command-line tool that encodes and decodes text in three common formats: Base6
 **Concepts covered:** Data encoding standards (Base64, Hex, URL encoding), regex pattern matching, format detection, encoding vs encryption distinction, practical use in security testing (JWT tokens, cookies, web requests)
 
 **Run:**
-```bash
 python encoder_decoder_2024.py
-```
 
----
 
 ### 4. Keylogger (Educational / Research Purpose Only)
 **File:** `keylogger_2025.py`
@@ -86,27 +74,50 @@ A Python-based keylogger demonstrating keyboard event capture, structured loggin
 **Concepts covered:** Keyboard event capture, multi-threading with locks, cross-platform system interaction, structured logging with file rotation, dataclass-based configuration, ethical boundaries in security tooling
 
 **Install dependencies:**
-```bash
 pip install pynput requests
-```
+
 
 **Run:**
-```bash
 python keylogger_2025.py
-```
-
----
 
 ## Tech Stack
 
 - Python 3.x
 - Libraries: `tkinter`, `pynput`, `requests`, `re`, `base64`, `urllib`
 
----
+  ### 5. VulnHawk — Web Application Vulnerability Scanner
+**Folder:** `VulnHawk/`
+
+A lightweight web application vulnerability scanner that automates detection of some of the most common OWASP Top 10 flaws. Built to strengthen practical offensive security skills beyond just tool usage — focusing on understanding how and why these vulnerabilities occur.
+
+> **Disclaimer:** This tool is strictly for educational purposes and authorized security testing only. Do not use VulnHawk against any system without explicit permission.
+
+**How it works:**
+- Crawls the target and tests input fields/parameters for SQL Injection
+- Injects payloads to detect Reflected/Stored XSS via response analysis
+- Checks response headers for missing security headers (CSP, X-Frame-Options, HSTS, etc.)
+- Inspects forms for missing/weak anti-CSRF tokens
+- Generates a structured scan report mapped to OWASP categories with CVSS severity ratings
+
+**Concepts covered:** OWASP Top 10, SQL Injection, Cross-Site Scripting (XSS), security misconfiguration, CSRF, CVSS scoring, automated vulnerability reporting
+
+**Install dependencies:**
+pip install -r VulnHawk/requirements.txt
+
+
+**Run:**
+python VulnHawk/vulnhawk.py -u https://target-website.com
+
+
+**Full documentation:** [VulnHawk README →](./VulnHawk/README.md)
+
+
+
 
 ## Author
-
 **Shaikh Zaki**
 BCA — Savitribai Phule Pune University (2026)
 Email: shaikhzakiii34@gmail.com
 LinkedIn: https://linkedin.com/in/shaikh-zaki-55b493260
+
+
