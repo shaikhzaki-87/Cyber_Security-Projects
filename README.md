@@ -1,6 +1,7 @@
-# Cyber Security Projects
+**Cyber Security Projetcs**
+This repository is a personal collection of cybersecurity projects, organized into Beginner, Intermediate, and Advanced tiers as my skills progress. Each project is built purely for educational purposes — to strengthen practical, hands-on security knowledge across cryptography, web application security, system-level programming, and more.
 
-A collection of beginner-friendly cybersecurity and Python projects built during my BCA (2024–2025). Each project focuses on a core security concept — from classical cryptography to encoding analysis and system-level monitoring.
+ All tools and techniques shared here are intended strictly for learning and authorized testing. None of this content should be used against systems without explicit permission.
 
 ## Projects
 
