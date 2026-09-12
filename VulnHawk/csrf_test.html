@@ -1,0 +1,63 @@
+
+    <html><head><title>VulnHawk Scan Report</title>
+    <style>
+    body { font-family: Arial, sans-serif; margin: 40px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background: #222; color: #fff; }
+    tr:nth-child(even) { background: #f4f4f4; }
+    h1 { color: #b00; }
+    </style></head>
+    <body>
+    <h1>VulnHawk — Vulnerability Scan Report</h1>
+    <p><b>Target:</b> http://127.0.0.1:5001/change-password</p>
+    <p><b>Scan Date:</b> 2026-09-11T02:02:39.606878</p>
+    <p><b>Total Findings:</b> 6</p>
+    <table>
+    <tr><th>Type</th><th>OWASP Category</th><th>Severity</th><th>CVSS</th><th>Evidence</th></tr>
+    
+        <tr>
+            <td>Missing Security Header</td>
+            <td>A05:2021-Security Misconfiguration</td>
+            <td>High</td>
+            <td>7.5</td>
+            <td>'Content-Security-Policy' not present in response headers</td>
+        </tr>
+        <tr>
+            <td>Missing Security Header</td>
+            <td>A05:2021-Security Misconfiguration</td>
+            <td>Medium</td>
+            <td>5.3</td>
+            <td>'X-Frame-Options' not present in response headers</td>
+        </tr>
+        <tr>
+            <td>Missing Security Header</td>
+            <td>A05:2021-Security Misconfiguration</td>
+            <td>Medium</td>
+            <td>5.3</td>
+            <td>'X-Content-Type-Options' not present in response headers</td>
+        </tr>
+        <tr>
+            <td>Missing Security Header</td>
+            <td>A05:2021-Security Misconfiguration</td>
+            <td>High</td>
+            <td>7.5</td>
+            <td>'Strict-Transport-Security' not present in response headers</td>
+        </tr>
+        <tr>
+            <td>Missing Security Header</td>
+            <td>A05:2021-Security Misconfiguration</td>
+            <td>Low</td>
+            <td>3.1</td>
+            <td>'Referrer-Policy' not present in response headers</td>
+        </tr>
+        <tr>
+            <td>CSRF - Missing Anti-CSRF Token</td>
+            <td>A01:2021-Broken Access Control (CSRF)</td>
+            <td>Medium</td>
+            <td>5.3</td>
+            <td>POST form #1 has no hidden CSRF token field</td>
+        </tr>
+    </table>
+    </body></html>
+    
