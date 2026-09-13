@@ -67,3 +67,10 @@ management and patch hygiene in real-world environments.
 **Tools used:** Kali Linux, Nmap, Metasploit Framework  
 **Skills demonstrated:** Reconnaissance, Vulnerability Identification, 
 Exploitation, Root Cause Analysis, Remediation Planning
+
+Author:
+Shaikh Zaki 
+shaikhzakiii34@gmail.com
+LinkedIn: 
+https://www.linkedin.com/in/shaikh-zaki-55b493260/
+
