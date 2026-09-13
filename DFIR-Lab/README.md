@@ -24,3 +24,8 @@ Autopsy 2.24, The Sleuth Kit, Linux `strings`/`grep` (manual carving)
 
 ## Disclaimer
 Conducted entirely on a self-created, simulated disk image for educational purposes. No real systems or data were involved.
+
+Author: Shaikh Zaki 
+shaikhzakiii34@gmail.com 
+LinkedIn:
+https://www.linkedin.com/in/shaikh-zaki-55b493260/
