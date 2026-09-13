@@ -117,7 +117,6 @@ python VulnHawk/vulnhawk.py -u https://target-website.com
 
 ## Author
 **Shaikh Zaki**
-BCA — Savitribai Phule Pune University (2026)
 Email: shaikhzakiii34@gmail.com
 LinkedIn: https://linkedin.com/in/shaikh-zaki-55b493260
 

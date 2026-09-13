@@ -1,16 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
 import nmap
 
 def run_scan(target_ip, ports="1-1000"):
