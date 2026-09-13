@@ -20,3 +20,10 @@ Enter target IP when prompted. Report generates as `report.html`.
 ## Disclaimer
 For use only against systems you own or are authorized to test (e.g. Metasploitable2 lab environment).
 test
+
+Author:
+Shaikh Zaki 
+shaikhzakiii34@gmail.com
+LinkedIn: 
+https://www.linkedin.com/in/shaikh-zaki-55b493260/
+
