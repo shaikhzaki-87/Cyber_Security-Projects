@@ -27,3 +27,9 @@ Out of 32 analyzed login events, the model correctly flagged a 7-attempt brute-f
 
 ## Disclaimer
 Tested only against self-owned lab systems for educational purposes.
+
+Author:
+Shaikh Zaki 
+shaikhzakiii34@gmail.com
+LinkedIn: 
+https://www.linkedin.com/in/shaikh-zaki-55b493260/
