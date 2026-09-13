@@ -83,8 +83,8 @@ This tool is built strictly for **educational purposes and authorized security t
 
 
 
-## Author
-
-**Shaikh Zaki**
-📧 shaikhzakiii34@gmail.com
-🔗 [LinkedIn](https://linkedin.com/in/shaikh-zaki-55b493260)
+Author:
+Shaikh Zaki 
+shaikhzakiii34@gmail.com
+LinkedIn: 
+https://www.linkedin.com/in/shaikh-zaki-55b493260/
