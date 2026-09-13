@@ -28,3 +28,5 @@ Generates `ztna_report.html` with a full access log, including the verification 
 
 ## Disclaimer
 A simplified educational simulation, not a production-grade ZTNA implementation.
+
+Author: Shaikh Zaki shaikhzakiii34@gmail.com LinkedIn: https://www.linkedin.com/in/shaikh-zaki-55b493260/
